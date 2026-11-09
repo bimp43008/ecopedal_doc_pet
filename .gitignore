@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments & Dependencies
+.venv/
+env/
+venv/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Generated documents & artifacts
+generated_docs/*
+!generated_docs/.gitkeep
+
+# MS Office temporary lock files
+~$*.docx
+~$*.xlsx
+
+# Databases & LangGraph checkpoints / Vectorstores
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+.chroma/
+
+# IDE & OS specific
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
